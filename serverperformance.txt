@@ -1,0 +1,13 @@
+/*To monitor server performance: */
+
+Top
+
+/*More load consuming on server:*/
+w and uptime
+
+To minimize server load we can 
+
+1. user CDN,
+2. Optimize images
+3.Compress css & Data
+4. Host Images elsewhere 

@@ -1,0 +1,6 @@
+<?php 
+$connection=ssh2_connect('SERVER_IP','PORT_NO');
+ssh2_auth_password=($connection,'USERNAME','PASSWORD');
+$stream=ssh2_exec($connection,'/user/local/bin/php -i');
+
+?> 

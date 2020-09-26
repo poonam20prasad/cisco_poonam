@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import "bootstrap.min.css";
+@import "../style.css";
+
+/* LOGIN */
+.login-container {
+  float: left;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  background: url("../images/bg.png") left top repeat #1b1e24;
+}
+.login-container .login-box {
+  width: 400px;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+.login-container .login-box .login-logo {
+  background: url(../images/logo.png) top center no-repeat;
+  width: 100%;
+  height: 80px;
+  float: left;
+  margin-bottom: 10px;
+}
+.login-container .login-box .login-body {
+  width: 100%;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.login-container .login-box .login-body .login-title {
+  color: #FFF;
+  font-size: 19px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.login-container .login-box .login-body .form-control {
+  border: 0px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+  color: #CCC;
+  line-height: 20px;
+  height: auto;
+  
+}
+.login-container .login-box .login-body .btn-link {
+  color: #FFF;
+  border: 0px;
+}
+.login-container .login-box .login-body .login-or {
+  width: 40px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin: 25px auto;
+  text-align: center;
+  line-height: 25px;
+  color: #FFF;
+}
+.login-container .login-box .login-body .login-or:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  top: -10px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+}
+.login-container .login-box .login-body .login-or:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  bottom: -10px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid rgba(0, 0, 0, 0.2);
+}
+.login-container .login-box .login-body .login-subtitle {
+  line-height: 20px;
+  padding: 5px 0px;
+  font-size: 12px;
+  color: #FFF;
+}
+.login-container .login-box .login-body .login-subtitle a {
+  color: #1caf9a;
+}
+.login-container .login-box .login-footer {
+  width: 100%;
+  float: left;
+  padding: 10px;
+ 
+}
+.login-container .login-box .login-footer a {
+  color: #FFF;
+}
+.login-container.lightmode {
+  background-size:cover;
+}
+.login-container.lightmode .login-box .login-body {
+	/*  background-image: linear-gradient(to bottom, #b9ca67, #096e5b  );*/
+  background: rgba(231, 245, 249,1); 
+  border: 5px #FFF solid;
+  border-radius: 20px; 
+  
+}
+.login-container.lightmode .login-box .login-body .form-control {
+  background: rgba(255, 255, 255, 0.4);
+  color: #333;
+  border: 1px solid #929090;
+}
+.login-container.lightmode .login-box .login-subtitle a {
+  color: #1b1e24;
+}
+/* END LOGIN */
+
+::placeholder {
+  color: blue;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}
+
+/* Style the form icons */
+.input-group-addon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.field-icon{
+	float: right;
+    right: 6px;
+    top: 12px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
